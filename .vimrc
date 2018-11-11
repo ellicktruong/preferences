@@ -35,5 +35,14 @@ nnoremap <leader>i i<space><esc>
 
 " toggle folding
 " notes: zM to close all, zm to fold deepest level under cursor
-" notes2: zR to open all, zr to open shallowest level under cursor
+" notes: zR to open all, zr to open shallowest level under cursor
 nnoremap <leader>z za 
+
+" =====MAPPING=====
+" move the cursor up and down visually (don't skip over wrapped lines)
+nnoremap j gj
+nnoremap k gk
+
+" toggle highlight search with +
+" regardless of the current state of hls, next search will always be highlighted
+nnoremap <expr> + (&hls && v:hlsearch ? ':nohls' : ':set hls')."\n"
