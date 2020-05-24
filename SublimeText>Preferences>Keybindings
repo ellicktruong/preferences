@@ -1,0 +1,5 @@
+[
+    { "keys": [ "ctrl+super+m" ], "command": "un_pretty_json" },
+    { "keys": [ "ctrl+super+p" ], "command": "pretty_json" },
+    { "keys": ["super+t"], "command": "new_file" }
+]
