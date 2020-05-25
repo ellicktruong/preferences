@@ -18,7 +18,7 @@ set showmatch " highlight matching brackets, parents, & braces
 " =====MISC=====
 set relativenumber number " show relative line #s (replace relative line 0 with current line #)
 set wildmenu " changes autocomplete in vim to a graphical menu
-set showcmd " shows the last command entered in teh very bottom right
+set showcmd " shows the last command entered in the bottom right
 
 " =====FOLDING=====
 set foldmethod=syntax " predefine folds by syntax 
