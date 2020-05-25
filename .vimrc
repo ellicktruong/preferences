@@ -16,7 +16,7 @@ highlight search cterm=bold
 set showmatch " highlight matching brackets, parents, & braces
 
 " =====MISC=====
-set number " show line numbers
+set relativenumber number " show relative line #s (replace relative line 0 with current line #)
 set wildmenu " changes autocomplete in vim to a graphical menu
 set showcmd " shows the last command entered in teh very bottom right
 
@@ -46,3 +46,7 @@ nnoremap k gk
 " toggle highlight search with +
 " regardless of the current state of hls, next search will always be highlighted
 nnoremap <expr> + (&hls && v:hlsearch ? ':nohls' : ':set hls')."\n"
+
+" toggle relative number
+nnoremap <F2> :set relativenumber!<CR>
+
