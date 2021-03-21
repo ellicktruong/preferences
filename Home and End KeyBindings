@@ -1,0 +1,22 @@
+{
+  /* Put me in ~/Library/Keybindings/DefaultKeyBinding.dict */
+  /* Remap Home / End keys */
+  
+  /* Home Button*/
+  "\UF729" = "moveToBeginningOfLine:"; 
+  /* Shift + Home Button */
+  "$\UF729" = "moveToBeginningOfLineAndModifySelection:"; 
+  /* Ctrl + Home Button */
+  "^\UF729" = "moveToBeginningOfDocument:"; 
+  /* Shift + Ctrl + Home Button */
+  "$^\UF729" = "moveToBeginningOfDocumentAndModifySelection:";
+
+  /* End Button */
+  "\UF72B" = "moveToEndOfLine:"; 
+  /* Shift + End Button */
+  "$\UF72B" = "moveToEndOfLineAndModifySelection:"; 
+  /* Ctrl + End Button */
+  "^\UF72B" = "moveToEndOfDocument:"; 
+  /* Shift + Ctrl + End Button*/
+  "$^\UF72B" = "moveToEndOfDocumentAndModifySelection:"; 
+}
