@@ -1,6 +1,15 @@
 {
   /* Put me in ~/Library/Keybindings/DefaultKeyBinding.dict */
-  /* Remap Home / End keys */
+
+  /* Ctrl is either ^ or @ */
+  /* Ctrl + Left */
+  /* "^\UF702"  = "moveWordLeft:"; */
+  /* Ctrl + Right */
+  /* "^\UF703"  = "moveWordRight:"; */
+  /* Ctrl + Shift + Left */
+  /* "^$\UF702" = "moveWordLeftAndModifySelection:";*/
+  /* Ctrl + Shift + Right */
+  /* "^$\UF703" = "moveWordRightAndModifySelection:";*/
   
   /* Home Button*/
   "\UF729" = "moveToBeginningOfLine:"; 
